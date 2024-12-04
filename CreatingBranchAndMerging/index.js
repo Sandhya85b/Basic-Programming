@@ -18,14 +18,4 @@ let checkPrime = function(num){
     return true
 }
 
-let evenOdd = function(num){
-   
-    if(num%2==0){
-        return true
-    }
-   
-   return false
-}
-
 console.log(checkPrime(6))
-console.log(evenOdd(4))
